@@ -10,14 +10,16 @@ Each Todo item have a title, description, and status (completed or not completed
     ```
     USER="ENTER USER NAME"
     HOST="ENTER THE HOST"
-    PORT=5432
+    PORT=5000
+    PG_PORT=5432
     DB="tododatabase"
     PASSWORD="ENTER THE PASSWORD"
 
     Example - 
     USER="postgres"
     HOST="localhost"
-    PORT=5432
+    PORT=5000
+    PG_PORT=5432
     DB="tododatabase"
     PASSWORD="passwordsomething"
 

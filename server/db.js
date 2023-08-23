@@ -6,7 +6,7 @@ const pool = new Pool({
   user: process.env.USER || "postgres",
   password: process.env.PASSWORD,
   host: process.env.HOST || "localhost",
-  port: process.env.PORT || 5432,
+  port: process.env.PG_PORT || 5432,
   database: process.env.DB || "tododatabase",
 });
 
